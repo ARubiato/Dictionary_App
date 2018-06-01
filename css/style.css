@@ -1,0 +1,337 @@
+.Container {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding: auto;
+	border: 1px solid #ccc;
+	position: relative;
+	text-align: center;
+}
+
+.Login_bg {
+	width: auto;
+	height: auto;
+	position: relative;
+	margin: 4% 10% 5% 10%;
+}
+
+.Login_intro {
+
+	width: 45%;
+	height: 100%;
+	margin: auto;
+	float: left;
+	border-radius: 5px;
+	position: relative;
+	margin-top: -55%;
+
+}
+
+.L_information {
+	width: 80%;
+	height: 100%;
+	border: 1px solid #ccc;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #ccc;
+	background:rgba(239,239,239,0.7);
+}
+
+.Login_form {
+	width: 50%;
+	height: 100%;
+	padding: auto;
+	float: right;
+	margin:auto;
+	margin-top: -55%;
+	position: relative;
+
+}
+
+.Login_body {
+	width: 50%;
+	height: 100%;
+	border:1px solid #ccc;
+	margin:auto;
+	padding: 10%;
+	border-radius: 5px;
+	position: static;
+	border-radius: 5px;
+	background-color: #ccc;
+	background:rgba(239,239,239,0.7);
+}
+
+.Login_footer {
+
+	width: 70%;
+	height: 20%;
+	margin: auto;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding: auto;
+	position: relative;
+	border-radius: 5px;
+	background-color: #ccc;
+	background:rgba(239,239,239,0.6);
+}
+
+
+.Button {
+	width: 100%;
+	background-color:#4CAF50;
+	color: white;
+	border: none;
+	margin-top: 8px 10px;
+	padding:14px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+
+}
+
+.Button1 {
+	width: 100%;
+	background-color:#4CAF50;
+	color: white;
+	border: none;
+	margin-top: 60px;
+	padding:20px 10px 15px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.Button:Hover{
+	opacity: 0.5;
+}
+
+.Button1:Hover {
+	opacity: 0.7;
+}
+
+.modal {
+	display: none; /*It is hidden by default*/
+	position: fixed;
+	z-index: 1; /*sits on top*/
+	padding-top:100px;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /*Enables scroll if needed*/
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4); /*Black with opacity*/
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;padding: 20px;
+	border:1px solid #888;
+	width: 80%;
+}
+
+.close {
+	color: :#aaaaaa;
+	float: right;
+	font-size:28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus{
+color:#000;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.wrapper {
+	width: 100%;
+	height: auto;
+	position: static;
+}
+
+.content {
+	width: 94%;
+	margin: 5em auto;
+	font-size:20px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.logo {
+	  width: auto;
+      letter-spacing: 1px;
+      padding:1.4%;
+      margin: 0 100px;
+      position: absolute;
+       float:left;
+}
+
+a.logo {
+
+}
+
+.Create_intro {
+	width: 20%;
+	height: auto;
+	margin: 5em auto;
+	padding: 2%;
+	position: absolute;
+	display: flex;
+	float: left;
+	background-color: black;
+	
+}
+
+
+
+
+	/*Global modified elements*/
+
+* {
+		margin: 0;
+		padding: 0;
+	}
+
+body {
+		margin: 0;
+		overflow: hidden;
+	}
+
+h4 h5 {
+	width: 90%;
+	height: auto;
+	padding:auto;
+	margin: auto;
+	float: left;
+}
+h3 {
+	padding:10px auto;
+	margin: 10px 10px 0 10px;
+
+
+}
+
+h2 {
+	text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+nav {
+	background-color: #46B1B1;
+	width: 100%;
+	height: 9.8%;
+	top:0;
+	left:0;
+	padding:2px 1px;
+	margin:auto;
+	transition: .3s;
+	box-shadow: 1px 2px;
+	position: absolute;
+	box-sizing: border-box;
+
+}
+
+
+
+nav.black {
+	background:rgba(0,0,0,0.7);
+	background-color: #fff;
+}
+
+
+
+nav ul {
+	line-height: 3;
+	width: 	70%;
+	height: auto;
+	list-style: none;
+	float: right;
+	color:#fff;
+	margin: 0 150px;
+	padding: 1px;
+	text-align: center;	
+	display:inline-block;
+	display: flex;
+	
+
+}
+
+
+
+nav ul li {
+	list-style: none;
+	display:inline-block;
+	padding:5% 35px;
+	position: relative;
+}
+
+
+a {
+	color:#fff;
+}
+
+a:hover {
+	background-color: #4c4c4c;
+	opacity: 0.8;
+}
+
+nav.black ul li a {
+color: #fff;
+}
+
+nav.black a:focus {
+	outline: none;
+}
+
+nav ul li a.active {
+	background: #E2472F;
+}
+
+
+
+@media(max-width: 786px) {
+ 
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 15px;
+            float: left;
+            padding: 2%;
+
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+ 
+      nav.black ul {
+            background: #000;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 15%;
+            padding: 25px;
+            text-align: center;
+  }
