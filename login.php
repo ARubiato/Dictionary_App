@@ -10,10 +10,10 @@
 
 		<body>
 			
-			<header style="height: 50%; position: relative;">
+			<!-- <header style="height: 50%; position: relative;">
 				<h4 style="text-align: center;">This is a header. Heheheh</h4>
 			</header>
-				<div class = "Container">
+ -->				<div class = "Container">
 					<div class = "login_bg">
 				<img src = "img/login_bg.jpg"/ style="width: 100%; height: auto; position: relative;">
 					<div class = "Login_intro">
@@ -31,7 +31,7 @@
 									<input type ="text" name="uname" placeholder="Username" required autocomplete="off">
 									<input type = "password" name="pwd" placeholder = "Password" required>
 									<br/>
-									<button class = "Button" value="submit" href = "index.php">Log In</button>
+									<button class = "Button" value="submit" href = "index.php" style = "cursor: pointer;">Log In</button>
 
 								</div>
 								<div class = "Login_footer">
