@@ -105,6 +105,7 @@
 	cursor: pointer;
 }
 
+
 .Button:Hover{
 	opacity: 0.5;
 }
@@ -207,11 +208,12 @@ a.logo {
 }
 
 .CD_Form_Header {
-	width: auto;
+	width: 100%;
 	height: auto;
 	position: absolute;
 	display: inline-block;
-	margin:5em auto;
+	margin:4em auto;
+	border-radius: 1px solid #ccc;
 }
 
 
@@ -220,13 +222,13 @@ a.logo {
 	height:auto;
 	position:absolute;
 	display: inline-block;
-	margin:12em auto;
+	margin:13em 2.2em;
 	padding: 2em;
 	line-height: 20px;
 	float: left;
 	border:1px solid #848484;
 	border-radius: 6px;
-	
+
 
 
 }
@@ -241,8 +243,9 @@ a.logo {
 	}
 
 body {
+	width: auto;
 		margin: 0;
-		overflow: hidden;
+		overflow: auto;
 	}
 
 h4 h5 {
@@ -275,6 +278,20 @@ input[type=text], input[type=password] {
     position: relative;
 }
 
+data-placeholder {
+	width: 100%;
+	background-color:#4CAF50;
+	color: white;
+	border: none;
+	margin-top: 60px;
+	padding:20px 10px 15px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
 
 nav {
 	background-color: #46B1B1;
@@ -282,7 +299,7 @@ nav {
 	height: 9.8%;
 	top:0;
 	left:0;
-	padding:2px 1px;
+	padding:3px 1px;
 	margin:auto;
 	transition: .3s;
 	box-shadow: 1px 2px;
@@ -307,15 +324,21 @@ nav ul {
 	list-style: none;
 	float: right;
 	color:#fff;
-	margin: 0 150px;
+	margin: 0 15em;
 	padding: 1px;
 	text-align: center;	
 	display:inline-block;
 	display: flex;
+	position: absolute;
 	
 
 }
 
+textarea.Dict_Desc {
+	width: 300px;
+	height: 200px;
+	padding: 3px;
+}
 
 
 nav ul li {
